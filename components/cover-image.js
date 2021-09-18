@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function CoverImage({ title, url, slug }) {
+  console.log(url)
   const imageUrl = `${
     url.startsWith('/') ? process.env.NEXT_PUBLIC_STRAPI_API_URL : ''
   }${url}`

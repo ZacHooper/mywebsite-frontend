@@ -15,7 +15,7 @@ export default function Avatar({ name, picture }) {
           alt={name}
         />
       </div>
-      <div className="text-xl font-bold">{name}</div>
+      <div className="text-xl font-bold text-light-white">{name}</div>
     </div>
   )
 }
